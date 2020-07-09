@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    pass text NOT NULL,
+    created_at DATETIME
+);
+
